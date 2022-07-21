@@ -1,2 +1,2 @@
 # HCP-IQ-Project
-Machine learning methods applied to data from the Human Connectome Project, attempting to predict IQ. Some code is used and adapted from @AbdulWahab3401 and @ecr05.
+Machine learning methods applied to data from the Human Connectome Project, attempting to predict IQ. More specifically, this repo includes code to deconfound and machine learning methods for application on rfMRI data. Code is also included here to process rfMRI HCP data from the cifti file format to gifti and then extracting the upper triangle of the area correlation matrix. Some code is used and adapted from @AbdulWahab3401 and @ecr05.
