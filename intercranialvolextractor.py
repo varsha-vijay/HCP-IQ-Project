@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import copy
 
 # Defining a function to extract the ages: 
-def intercranialvol_extractor(sheet_num):
+def intercranial_vol_extractor(sheet_num):
     
     # Sheet_num: represents whether to load in training or testing data.
     
