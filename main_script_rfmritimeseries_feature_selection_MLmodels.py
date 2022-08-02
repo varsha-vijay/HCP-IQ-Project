@@ -1,4 +1,4 @@
-''' Full Feature Selection for rfMRI trials'''
+''' Full Feature Selection and ML models applied for rfMRI features'''
 
 # Now trialling random forest regressor after applying feature selection: 
 #%% IMPORTING BASIC MODULES
