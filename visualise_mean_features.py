@@ -1,4 +1,4 @@
-# A script to visualise the mean feature: 
+# A script to visualise the mean features and check the hand engineered features are correct: 
     
 # First importing the relevant libraries:
 # Import libraries: 
