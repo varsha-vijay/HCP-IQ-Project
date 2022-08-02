@@ -1,3 +1,4 @@
+# Run this file after running the first visualise_important_areas.py file to extract the top 100 regions. 
 
 #%% IMPORTING BASIC MODULES
 import numpy as np
@@ -27,14 +28,8 @@ label_names_R = labelR.labeltable.get_labels_as_dict()
 labelLimportant = copy.deepcopy(labelL)
 labelRimportant = copy.deepcopy(labelR)
 
-areas = [  4,   8,   9,  10,  12,  16,  18,  20,  24,  26,  31,  32,  33,
-        34,  38,  39,  42,  45,  52,  56,  64,  70,  71,  83,  90,  92,
-        94,  96,  97,  98,  99, 102, 117, 118, 119, 120, 122, 123, 125,
-       130, 133, 139, 142, 143, 151, 154, 158, 160, 164, 166, 167, 168,
-       169, 171, 174, 175, 183, 184, 186, 188, 190, 192, 195, 204, 219,
-       220, 229, 232, 242, 252, 260, 261, 266, 268, 272, 274, 284, 285,
-       286, 288, 290, 291, 296, 298, 304, 305, 306, 314, 316, 317, 320,
-       324, 326, 328, 338, 343, 348, 349, 354, 356]
+# Add the top 100 regions identified by the previous file below as csv list of ints
+areas = [ ]
 
 for i in np.arange(1,len(label_names_L)):
     label_pos_L = np.where(labelL.darrays[0].data == i )[0]
