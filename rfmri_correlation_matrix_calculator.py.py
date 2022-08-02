@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-''' FINAL Script for functional connectivity data '''
+''' FINAL Script for functional connectivity data, performed in Ubuntu '''
 
 # Importing relevant files: 
 import numpy as np
@@ -11,7 +11,7 @@ import nibabel
 
 # Folder path for all the extracted .gii timeseries.
 path_ts = './'
-# Folder path for all the subject labels. 
+# Folder path for all the subject labels. ADAPT PATHS AS REQUIRED >> 
 path_label = 'C:\\Users\\priya\\Documents\\MSc Extended Research Project\\Trial Labels\\'
 
 # List in order of all the required subjects. INSERT ID NUMBERS OF REQUIRED SUBJECTS AS INT IN LIST BELOW>>
