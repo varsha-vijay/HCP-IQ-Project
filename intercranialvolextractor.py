@@ -1,4 +1,4 @@
-# This is a file to extract some confounding variables: 
+# This is a file to extract some confounding variables: Adjust paths as necessary and variable to be extracted as necessary (eg. weight/age/sex/gender).
 
 # First need to import useful libraries: 
 import numpy as np
@@ -48,8 +48,8 @@ def intercranialvol_extractor(sheet_num):
         for j in range(len(cases)):
             if(relevant_cases[i] == cases[j]):
                 ind.append(j)  
-                
-    # Extracting weight info of relevant cases
+               
+    # Extracting info of relevant cases - change number 3 in loop below the column required corresponding to the needed variable (eg. age/sex/weight)
     y_out = np.zeros(len(ind))
     for i in range(len(ind)):
         y_out[i] = info_data[:,3][ind[i]]
