@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 
-''' FINAL Script for functional connectivity data '''
+''' FINAL Script for functional connectivity data - allows cifti separation of each cifti timeseries file into 2 gifti files for left and right hemispheres '''
 
 # Importing relevant files: 
 import numpy as np
@@ -11,13 +11,15 @@ import time
 
 # %% fMRI timeseries analysis
 
+# ADAPT PATHS BELOW AS REQUIRED
+
 # Folder path for all the extracted .gii timeseries.
 #path_ts = '~/Documents/MSc\ Project\:\ HCP\ IQ/alltimeseries/'
 path_ts = './'
 # Folder path for all the subject labels. 
 path_label = '~/Documents/MSc\ Project\:\ HCP\ IQ/alllabels/'
 
-# List in order of all the required subjects.
+# List in order of all the required subjects. ADD SUBJECTS IDs REQUIRED IN LIST BELOW AS ['12345', '23456' etc] 
 subjects = ['100307','100408','101006','148032','102008','137633']
 
 # The left hemisphere timeseries
